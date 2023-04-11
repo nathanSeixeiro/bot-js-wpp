@@ -1,1 +1,1 @@
-console.log("ts run");
+console.log("ts run")
