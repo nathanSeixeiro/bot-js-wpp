@@ -1,0 +1,26 @@
+{
+  "name": "bot-ts-wpp",
+  "version": "1.0.0",
+  "description": "Bot com typescript para o whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanSeixeiro/bot-ts-wpp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanSeixeiro/bot-ts-wpp/issues"
+  },
+  "homepage": "https://github.com/nathanSeixeiro/bot-ts-wpp#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "tsx": "^3.12.6"
+  }
+}
