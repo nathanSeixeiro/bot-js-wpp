@@ -1,7 +1,9 @@
-const {default: makeWASocket, DisconnectReason} = require('@adiwajshing/baileys')
+const {default: makeWASocket, DisconnectReason, useMultiFileAuthState} = require('@adiwajshing/baileys')
 
 async function connect(){
+    const {state, saveCreds} = await useMultiFileAuthState('assets/auth/baileys')
     const bot = makeWASocket({
+        auth: state,
         printQRInTerminal: true,
         defaultQueryTimeoutMs: undefined
    })
@@ -15,6 +17,8 @@ async function connect(){
         connect()
     }
    })
+
+   bot.env.on('creds.update', saveCreds)
 
    return bot
 }
