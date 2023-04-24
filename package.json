@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:nathanSeixeiro/bot-js-wpp.git",
   "author": "seixeiro <nathan.seixeiro@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys"
+  }
 }
