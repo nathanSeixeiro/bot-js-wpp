@@ -1,8 +1,8 @@
 {
-  "name": "bot-ts-wpp",
+  "name": "bot-js-wpp",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/nathanSeixeiro/bot-ts-wpp.git",
-  "author": "Nathan Seixeiro <nathan.seixeiro@gmail.com>",
+  "repository": "git@github.com:nathanSeixeiro/bot-js-wpp.git",
+  "author": "seixeiro <nathan.seixeiro@gmail.com>",
   "license": "MIT"
 }
