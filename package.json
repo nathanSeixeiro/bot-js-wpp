@@ -6,6 +6,7 @@
   "author": "seixeiro <nathan.seixeiro@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys"
+    "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+    "qrcode-terminal": "^0.12.0"
   }
 }
