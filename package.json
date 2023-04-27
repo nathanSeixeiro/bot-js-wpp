@@ -1,0 +1,8 @@
+{
+  "name": "bot-js-wpp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nathanSeixeiro/bot-js-wpp.git",
+  "author": "seixeiro <nathan.seixeiro@gmail.com>",
+  "license": "MIT"
+}
